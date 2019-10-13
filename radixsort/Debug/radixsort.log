@@ -1,0 +1,28 @@
+﻿Build started 11/5/2014 10:44:56 AM.
+     1>Project "c:\Users\1312154\documents\visual studio 2010\Projects\radixsort\radixsort\radixsort.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\radixsort.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt radixsort.cpp
+         radixsort.cpp
+     1>c:\users\1312154\documents\visual studio 2010\projects\radixsort\radixsort\radixsort.cpp(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\1312154\documents\visual studio 2010\projects\radixsort\radixsort\radixsort.cpp(14): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\1312154\documents\visual studio 2010\projects\radixsort\radixsort\radixsort.cpp(22): warning C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getche. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(129) : see declaration of 'getche'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\1312154\documents\visual studio 2010\projects\radixsort\Debug\radixsort.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\radixsort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\1312154\documents\visual studio 2010\projects\radixsort\Debug\radixsort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\1312154\documents\visual studio 2010\projects\radixsort\Debug\radixsort.lib" /MACHINE:X86 Debug\radixsort.obj
+         Debug\stdafx.obj
+     1>radixsort.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         radixsort.vcxproj -> c:\users\1312154\documents\visual studio 2010\projects\radixsort\Debug\radixsort.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\1312154\documents\visual studio 2010\projects\radixsort\Debug\radixsort.exe;#1" /manifest Debug\radixsort.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\radixsort.unsuccessfulbuild".
+         Touching "Debug\radixsort.lastbuildstate".
+     1>Done Building Project "c:\Users\1312154\documents\visual studio 2010\Projects\radixsort\radixsort\radixsort.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.62
